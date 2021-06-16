@@ -5,7 +5,15 @@
                  height: "100%";
                  width: "100%";
                  margin: 0;
-             }
+                 background-color: #e0e0e0;
+        }
+        .header{
+            background-color: rosybrown;
+        }
+        .footer{
+            background-color: rosybrown;
+        }
+        
          </style>
     </head>
     <body>
@@ -17,22 +25,27 @@
         <div>
         </header>
     <div class="content">
+
+    <div class="contacts" style="margin-left: 4%;margin-top: 2%;margin-right: 4%;">
          <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" style="height:500px;width:500px">
-      <form action="payment.html">
+        </div>
+         <form action="payment.html">
+          <div class="form1" style="margin-right: 4%;margin-left: 4%;margin-bottom: 1%;">
           <label>Adults:</label>
           <input type="number" min="1"  required>
         <div><label>Name:</label>
           <input type="text" required></div>    
           <div>   <label>From Date:</label>
-          <input type="date"required></div>
+          <input type="date" required></div>
           <div> <label>To Date:</label>
-       <input type="date"required></div>  
-          <label>Total:</label>
-          <div> <input type="number" readonly></div>  
-          <button type = "submit">Book Now</button required></div>
-
-          
-      </form>
+       <input type="date" required></div>  
+       <div>  <label>Total:</label>
+           <input type="number"  readonly></div>  
+          <div>   <button type = "submit" >Book Now</button required></div>
+          </div>
+    </form>
+      
+    <div class="description" style="margin-bottom: 2%;margin-left: 4%;margin-right: 4%;margin-top: 1%;">
       <h2>Radisson Blu Hotel</h2>
       <p>RATING</p>
       <P>5 Star</P>
@@ -46,6 +59,7 @@
           </ul>
           <h5>DESCRIPTION</h5>
           <p>A luxurious and comfortable stay.</p>
+        </div>
 
     </div>
     <footer>
